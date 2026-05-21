@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Showcase | Abhi Web Developer</title>
+    <!-- Meta Descriptions for SEO -->
+    <meta name="description" content="Explore custom-designed, high-performance web products crafted by Abhi Web Developer. Browse our latest projects, custom e-commerce stores, and dashboard portals.">
+    <meta name="keywords" content="web developer portfolio, abhi developer work, Luxe Jewelers, e-commerce web design, modern dashboard custom code">
+    <meta name="author" content="Abhi Web Developer">
+
+    <!-- Premium Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- Core Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark-theme">
+    <!-- Animated Particle Background Container -->
+    <div id="particle-bg"></div>
+
+    <!-- Glowing Background Blobs -->
+    <div class="blob-glow blob-1"></div>
+    <div class="blob-glow blob-2"></div>
+    <div class="blob-glow blob-3"></div>
+
+    <!-- Header & Navigation -->
+    <header id="main-header">
+        <div class="container header-container">
+            <a href="index.html" class="logo">
+                <span class="logo-symbol">&lt;/&gt;</span>
+                <span class="logo-text">Abhi <span class="accent-text">Web Developer</span></span>
+            </a>
+            
+            <nav id="navbar">
+                <ul class="nav-links">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="index.html#about" class="nav-link">About</a></li>
+                    <li><a href="index.html#services" class="nav-link">Services</a></li>
+                    <li><a href="portfolio.html" class="nav-link active">Portfolio</a></li>
+                    <li><a href="index.html#process" class="nav-link">Process</a></li>
+                    <li><a href="index.html#contact" class="nav-btn">Start Project</a></li>
+                </ul>
+            </nav>
+
+            <button class="mobile-menu-toggle" aria-label="Toggle Menu" id="mobile-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Mobile Nav Overlay -->
+    <div class="mobile-nav-overlay" id="mobile-overlay">
+        <ul class="mobile-nav-links">
+            <li><a href="index.html" class="mobile-link">Home</a></li>
+            <li><a href="index.html#about" class="mobile-link">About</a></li>
+            <li><a href="index.html#services" class="mobile-link">Services</a></li>
+            <li><a href="portfolio.html" class="mobile-link">Portfolio</a></li>
+            <li><a href="index.html#process" class="mobile-link">Process</a></li>
+            <li><a href="index.html#contact" class="mobile-btn">Start Project</a></li>
+        </ul>
+    </div>
+
+    <main>
+        <!-- Portfolio Hero Section -->
+        <section id="portfolio-hero" style="padding-top: 10rem; padding-bottom: 4rem;">
+            <div class="container text-center">
+                <div class="badge fade-in">
+                    <span class="badge-dot"></span>
+                    <span class="badge-text">Bespoke Digital Showcase</span>
+                </div>
+                <h1 class="hero-title fade-in delay-1">
+                    My Crafted <span class="gradient-text">Masterpieces</span>
+                </h1>
+                <p class="section-subtitle fade-in delay-2" style="margin-bottom: 2rem;">
+                    Explore high-performance, modern e-commerce stores, custom applications, and brand ecosystems designed to scale operations and convert audiences.
+                </p>
+            </div>
+        </section>
+
+        <!-- Main Portfolio Grid Showcase -->
+        <section id="portfolio-grid" style="padding-top: 0; padding-bottom: 6rem;">
+            <div class="container">
+                <div class="project-showcase">
+                    <!-- Featured Project Card: Luxe Jewelers -->
+                    <div class="project-card scroll-reveal revealed">
+                        <div class="project-image-side">
+                            <div class="luxury-mockup-wrapper">
+                                <div class="luxury-glow-backdrop"></div>
+                                <div class="mockup-frame">
+                                    <div class="mockup-top-bar">
+                                        <div class="mockup-circle"></div>
+                                        <div class="mockup-circle"></div>
+                                        <div class="mockup-circle"></div>
+                                        <span class="mockup-url">luxe-jewelers.vercel.app</span>
+                                    </div>
+                                    <div class="mockup-screen-content">
+                                        <div class="luxe-mockup-page">
+                                            <div class="luxe-mockup-header">
+                                                <div class="luxe-mockup-logo">✦ Luxe Jewelers</div>
+                                                <div class="luxe-mockup-nav">
+                                                    <span class="active">Home</span>
+                                                    <span>About</span>
+                                                    <span>Products</span>
+                                                    <span>Services</span>
+                                                    <span>Contact</span>
+                                                </div>
+                                            </div>
+                                            <div class="luxe-mockup-hero">
+                                                <h1 class="luxe-mockup-title">Timeless Elegance</h1>
+                                                <p class="luxe-mockup-subtitle">Discover our exquisite collection of handcrafted jewelry</p>
+                                                <div class="luxe-mockup-ctas">
+                                                    <span class="luxe-mockup-btn gold">Explore Collection</span>
+                                                    <span class="luxe-mockup-btn outline">Book Consultation</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-info-side">
+                            <span class="project-badge">Featured E-Commerce</span>
+                            <h3>Luxe Jewelers</h3>
+                            <p class="project-desc">
+                                A high-end, luxury boutique jewelry e-commerce experience. Featuring silky-smooth product grid transitions, refined gold and diamond showcases, a clean minimal checkout path, and fully custom animations tailored to encapsulate luxury.
+                            </p>
+                            <div class="tech-tags">
+                                <span class="tag">Next.js</span>
+                                <span class="tag">React</span>
+                                <span class="tag">TailwindCSS</span>
+                                <span class="tag">Vercel Hosting</span>
+                                <span class="tag">E-Commerce Flow</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://luxe-jewelers-five.vercel.app/" target="_blank" rel="noopener noreferrer" class="btn btn-primary inline-flex">
+                                    <span>Launch Site</span>
+                                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M18 13V19C18 19.5304 17.7893 20.0391 17.4142 20.4142C17.0391 20.7893 16.5304 21 16 21H5C4.46957 21 3.96086 20.7893 3.58579 20.4142C3.21071 20.0391 3 19.5304 3 19V8C3 7.46957 3.21071 6.96086 3.58579 6.58579C3.96086 6.21071 4.46957 6 5 6H11" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M15 3H21V9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M10 14L21 3" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Upcoming Projects & Creative Teaser Slots -->
+                    <div style="margin-top: 4rem;">
+                        <h3 class="section-title text-center" style="font-size: 1.8rem; margin-bottom: 2rem;">Projects Brewing in the Lab</h3>
+                        <div class="teaser-grid">
+                            <div class="teaser-card scroll-reveal">
+                                <div class="teaser-glow"></div>
+                                <div class="teaser-icon">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M12 2V22" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M17 5H9.5C8.57174 5 7.6815 5.36875 7.02513 6.02513C6.36875 6.6815 6 7.57174 6 8.5C6 9.42826 6.36875 10.3185 7.02513 10.9749C7.6815 11.6313 8.57174 12 9.5 12H14.5C15.4283 12 16.3185 12.3687 16.9749 13.0251C17.6313 13.6815 18 14.5717 18 15.5C18 16.4283 17.6313 17.3185 16.9749 17.9749C16.3185 18.6313 15.4283 19 14.5 19H6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </div>
+                                <h4>FinTech Dashboard System</h4>
+                                <p class="teaser-status">Status: Design Phase</p>
+                                <p class="project-desc" style="font-size: 0.88rem; margin-bottom: 1.5rem; text-align: left;">
+                                    A high-security capital management dashboard presenting financial analytics, dynamic data charts, transaction monitoring systems, and instant invoices generation.
+                                </p>
+                                <span class="teaser-link">Learn More &rarr;</span>
+                            </div>
+
+                            <div class="teaser-card scroll-reveal">
+                                <div class="teaser-glow"></div>
+                                <div class="teaser-icon">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M21 16V8C21 6.89543 20.1046 6 19 6H5C3.89543 6 3 6.89543 3 8V16C3 17.1046 3.89543 18 5 18H19C20.1046 18 21 17.1046 21 16Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <path d="M10 9L15 12L10 15V9Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </div>
+                                <h4>SaaS Subscription Platform</h4>
+                                <p class="teaser-status">Status: Coding Phase</p>
+                                <p class="project-desc" style="font-size: 0.88rem; margin-bottom: 1.5rem; text-align: left;">
+                                    A multi-tier software portal supporting active billing flows, automated user invitations, subscription management grids, and API keys validation.
+                                </p>
+                                <span class="teaser-link">Learn More &rarr;</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Premium Portfolio CTA Block -->
+        <section id="portfolio-cta" style="background: rgba(11, 15, 25, 0.4); border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); padding: 5rem 0;">
+            <div class="container text-center scroll-reveal">
+                <span class="section-tag">COLLABORATE</span>
+                <h2 class="section-title" style="margin-bottom: 1.5rem;">Ready to Build Your Digital Flagship?</h2>
+                <p class="section-subtitle" style="margin-bottom: 2.5rem; max-width: 540px;">
+                    Whether you need a luxury boutique e-commerce storefront or a custom SaaS portal, let's craft a platform optimized for high performance and conversions.
+                </p>
+                <a href="index.html#contact" class="btn btn-primary">
+                    <span>Let's Discuss Your Project</span>
+                    <svg class="btn-icon" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M3.33333 8H12.6667M12.6667 8L8 3.33334M12.6667 8L8 12.6667" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer id="main-footer">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <a href="index.html" class="logo">
+                    <span class="logo-symbol">&lt;/&gt;</span>
+                    <span class="logo-text">Abhi <span class="accent-text">Web Developer</span></span>
+                </a>
+                <p>Bespoke web technologies built to maximize business visibility and operational conversion.</p>
+            </div>
+            
+            <div class="footer-links-col">
+                <h4>Navigation</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#about">About</a></li>
+                    <li><a href="index.html#services">Services</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-links-col">
+                <h4>Legal &amp; Admin</h4>
+                <ul>
+                    <li><a href="index.html">Terms of Use</a></li>
+                    <li><a href="index.html">Privacy Policy</a></li>
+                    <li><a href="index.html#contact">Inquiry Portal</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom container">
+            <p>&copy; 2026 Abhi Web Developer. All rights reserved. Crafting code that creates value.</p>
+            <a href="portfolio.html#" class="back-to-top" id="to-top-btn" aria-label="Scroll back to top">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M18 15L12 9L6 15" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </a>
+        </div>
+    </footer>
+
+    <!-- Core Script -->
+    <script src="script.js"></script>
+</body>
+</html>

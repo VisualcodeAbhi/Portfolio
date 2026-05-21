@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhi Web Developer | Premium Web Development & Digital Experiences</title>
+    <!-- Meta Descriptions for SEO -->
+    <meta name="description" content="Stunning, high-performance, and custom-designed websites crafted to grow your business. Specialized in modern e-commerce, custom apps, and premium UI/UX. Let's build your vision.">
+    <meta name="keywords" content="web developer, abhi web developer, portfolio, custom websites, e-commerce developer, premium web design, SEO optimization, high performance web">
+    <meta name="author" content="Abhi Web Developer">
+    
+    <!-- OpenGraph Meta Tags for Social Media -->
+    <meta property="og:title" content="Abhi Web Developer | Premium Web Experiences">
+    <meta property="og:description" content="Custom-crafted, lightning-fast, and stunningly beautiful web development services to elevate your business.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://abhiwebdeveloper.com">
+    <meta property="og:image" content="assets/images/luxe_jewelers_mockup.png">
+
+    <!-- Premium Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- Core Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark-theme">
+    <!-- Animated Particle Background Container -->
+    <div id="particle-bg"></div>
+
+    <!-- Glowing Background Blobs -->
+    <div class="blob-glow blob-1"></div>
+    <div class="blob-glow blob-2"></div>
+    <div class="blob-glow blob-3"></div>
+
+    <!-- Header & Navigation -->
+    <header id="main-header">
+        <div class="container header-container">
+            <a href="#hero" class="logo">
+                <span class="logo-symbol">&lt;/&gt;</span>
+                <span class="logo-text">Abhi <span class="accent-text">Web Developer</span></span>
+            </a>
+            
+            <nav id="navbar">
+                <ul class="nav-links">
+                    <li><a href="#hero" class="nav-link active">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#services" class="nav-link">Services</a></li>
+                    <li><a href="portfolio.html" class="nav-link">Portfolio</a></li>
+                    <li><a href="#process" class="nav-link">Process</a></li>
+                    <li><a href="#contact" class="nav-btn">Start Project</a></li>
+                </ul>
+            </nav>
+
+            <button class="mobile-menu-toggle" aria-label="Toggle Menu" id="mobile-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- Mobile Nav Overlay -->
+    <div class="mobile-nav-overlay" id="mobile-overlay">
+        <ul class="mobile-nav-links">
+            <li><a href="#hero" class="mobile-link">Home</a></li>
+            <li><a href="#about" class="mobile-link">About</a></li>
+            <li><a href="#services" class="mobile-link">Services</a></li>
+            <li><a href="portfolio.html" class="mobile-link">Portfolio</a></li>
+            <li><a href="#process" class="mobile-link">Process</a></li>
+            <li><a href="#contact" class="mobile-btn">Start Project</a></li>
+        </ul>
+    </div>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero">
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <div class="badge fade-in">
+                        <span class="badge-dot"></span>
+                        <span class="badge-text">Available for Freelance & Contract Projects</span>
+                    </div>
+                    <h1 class="hero-title fade-in delay-1">
+                        Crafting High-Converting <br>
+                        <span class="gradient-text">Premium Web Experiences</span>
+                    </h1>
+                    <p class="hero-subtitle fade-in delay-2">
+                        I build custom, lightning-fast, and stunningly interactive websites designed to captivate your audience and grow your business.
+                    </p>
+                    <div class="hero-actions fade-in delay-3">
+                        <a href="portfolio.html" class="btn btn-primary">
+                            <span>Explore My Work</span>
+                            <svg class="btn-icon" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M8 3.33334V12.6667M8 12.6667L12.6667 8M8 12.6667L3.33333 8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </a>
+                        <a href="#contact" class="btn btn-secondary">
+                            <span>Let's Discuss</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="hero-visual fade-in delay-3">
+                    <div class="interactive-card">
+                        <div class="card-header">
+                            <span class="dot red"></span>
+                            <span class="dot yellow"></span>
+                            <span class="dot green"></span>
+                            <span class="window-title">abhi_developer.config.js</span>
+                        </div>
+                        <div class="card-body">
+                            <pre><code><span class="keyword">const</span> developer = {
+  name: <span class="string">'Abhi'</span>,
+  role: <span class="string">'Premium Web Developer'</span>,
+  mission: <span class="string">'Transform ideas into digital gold'</span>,
+  skills: [
+    <span class="string">'React'</span>, <span class="string">'Next.js'</span>, <span class="string">'Node.js'</span>,
+    <span class="string">'Vanilla JS'</span>, <span class="string">'Modern CSS'</span>, <span class="string">'SEO Pro'</span>
+  ],
+  passion: <span class="string">'Stunning UI + High Performance'</span>,
+  active: <span class="keyword">true</span>
+};
+
+<span class="comment">// Fueling your business growth...</span>
+developer.buildMasterpiece();</code></pre>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Stats Bar -->
+            <div class="stats-bar container">
+                <div class="stat-item">
+                    <span class="stat-number">100%</span>
+                    <span class="stat-label">Client-Centric Quality</span>
+                </div>
+                <div class="stat-item divider"></div>
+                <div class="stat-item">
+                    <span class="stat-number">95+</span>
+                    <span class="stat-label">Avg. Lighthouse Score</span>
+                </div>
+                <div class="stat-item divider"></div>
+                <div class="stat-item">
+                    <span class="stat-number">24/7</span>
+                    <span class="stat-label">Dedicated Support</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about">
+            <div class="container grid-2">
+                <div class="about-visual scroll-reveal">
+                    <div class="profile-frame">
+                        <div class="profile-glow"></div>
+                        <div class="profile-inner-mock">
+                            <div class="avatar-fallback">
+                                <span class="fallback-letter">A</span>
+                            </div>
+                            <div class="profile-badges">
+                                <span class="p-badge">Creative</span>
+                                <span class="p-badge">Analytical</span>
+                                <span class="p-badge">Reliable</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-text scroll-reveal">
+                    <span class="section-tag">WHO I AM</span>
+                    <h2 class="section-title">Weaving Design &amp; Technology Into Profits</h2>
+                    <p class="section-desc">
+                        Hi, I'm <strong>Abhi</strong>, the founder of <strong>Abhi Web Developer</strong>. I'm a professional web engineer dedicated to providing businesses with the ultimate competitive edge online.
+                    </p>
+                    <p class="section-desc">
+                        I specialize in creating immersive digital environments that don't just look breath-taking but also run at blazing-fast speeds. By pairing clean architecture with user psychology, I build highly interactive websites that actively convert visitors into loyal clients.
+                    </p>
+                    
+                    <div class="about-highlights">
+                        <div class="highlight-item">
+                            <div class="h-icon-container">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="currentColor" stroke-width="2"/>
+                                    <path d="M7.5 12.5L10.5 15.5L16.5 9.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                            <div class="h-content">
+                                <h3>Custom Aesthetics</h3>
+                                <p>No generic templates. Every line of code is tailored to match your unique brand identity.</p>
+                            </div>
+                        </div>
+                        <div class="highlight-item">
+                            <div class="h-icon-container">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M13 2L3 14H12L11 22L21 10H12L13 2Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                            <div class="h-content">
+                                <h3>Technical Excellence</h3>
+                                <p>Unparalleled optimization yielding superior PageSpeed scores, enhanced SEO ranking, and flawless mobile experiences.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services">
+            <div class="container text-center">
+                <span class="section-tag">WHAT I OFFER</span>
+                <h2 class="section-title">Engineered for Your Business Success</h2>
+                <p class="section-subtitle">
+                    Transforming your technical vision into scalable web platforms with clean modern components.
+                </p>
+
+                <div class="services-grid">
+                    <!-- Service 1 -->
+                    <div class="service-card scroll-reveal">
+                        <div class="service-icon-bg">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 2L2 7L12 12L22 7L12 2Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M2 17L12 22L22 17" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M2 12L12 17L22 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <h3>Premium UI/UX Design</h3>
+                        <p>Beautiful, intuitive user interfaces mapped directly to user behaviors, featuring seamless accessibility and responsiveness.</p>
+                        <ul class="card-features">
+                            <li>Wireframing & Prototyping</li>
+                            <li>Bespoke Design Systems</li>
+                            <li>Interactive Animations</li>
+                        </ul>
+                    </div>
+
+                    <!-- Service 2 -->
+                    <div class="service-card scroll-reveal featured">
+                        <div class="featured-badge">Highly Requested</div>
+                        <div class="service-icon-bg">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M6 2L3 6V20C3 20.5304 3.21071 21.0391 3.58579 21.4142C3.96086 21.7893 4.46957 22 5 22H19C19.5304 22 20.0391 21.7893 20.4142 21.4142C20.7893 21.0391 21 20.5304 21 20V6L18 2H6Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M3 6H21" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M16 10C16 11.0609 15.5786 12.0783 14.8284 12.8284C14.0783 13.5786 13.0609 14 12 14C10.9391 14 9.92172 13.5786 9.17157 12.8284C8.42143 12.0783 8 11.0609 8 10" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <h3>E-Commerce Architecture</h3>
+                        <p>High-end digital storefronts customized with smooth shopping checkouts, blazing speed, and premium catalog browsing.</p>
+                        <ul class="card-features">
+                            <li>NextJS & Shopify Headless</li>
+                            <li>Secure Stripe/Payment Flow</li>
+                            <li>Inventory & Custom Dashboards</li>
+                        </ul>
+                    </div>
+
+                    <!-- Service 3 -->
+                    <div class="service-card scroll-reveal">
+                        <div class="service-icon-bg">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M18 3H6C4.89543 3 4 3.89543 4 5V19C4 20.1046 4.89543 21 6 21H18C19.1046 21 20 20.1046 20 19V5C20 3.89543 19.1046 3 18 3Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M8 8H16" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M8 12H16" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M8 16H12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <h3>Custom Applications</h3>
+                        <p>Robust and scalable web solutions customized specifically for your company's workflows and database requirements.</p>
+                        <ul class="card-features">
+                            <li>Tailored Dashboard Systems</li>
+                            <li>Database Integration (SQL/NoSQL)</li>
+                            <li>Scalable API Infrastructure</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio Showcase Teaser Section -->
+        <section id="portfolio">
+            <div class="container">
+                <div class="text-center">
+                    <span class="section-tag">PORTFOLIO SHIFT</span>
+                    <h2 class="section-title">High-Performance Showcases</h2>
+                    <p class="section-subtitle">
+                        A featured look at custom platforms crafted to optimize digital scaling and capture results.
+                    </p>
+                </div>
+
+                <!-- Featured Teaser Card: Luxe Jewelers -->
+                <div class="project-card scroll-reveal" style="margin-bottom: 3.5rem;">
+                    <div class="project-image-side">
+                        <!-- Visual Graphic Mockup for Luxe Jewelers -->
+                        <div class="luxury-mockup-wrapper">
+                            <div class="luxury-glow-backdrop"></div>
+                            <div class="mockup-frame">
+                                <div class="mockup-top-bar">
+                                    <div class="mockup-circle"></div>
+                                    <div class="mockup-circle"></div>
+                                    <div class="mockup-circle"></div>
+                                    <span class="mockup-url">luxe-jewelers.vercel.app</span>
+                                </div>
+                                <div class="mockup-screen-content">
+                                    <div class="luxe-mockup-page">
+                                        <div class="luxe-mockup-header">
+                                            <div class="luxe-mockup-logo">✦ Luxe Jewelers</div>
+                                            <div class="luxe-mockup-nav">
+                                                <span class="active">Home</span>
+                                                <span>About</span>
+                                                <span>Products</span>
+                                                <span>Services</span>
+                                                <span>Contact</span>
+                                            </div>
+                                        </div>
+                                        <div class="luxe-mockup-hero">
+                                            <h1 class="luxe-mockup-title">Timeless Elegance</h1>
+                                            <p class="luxe-mockup-subtitle">Discover our exquisite collection of handcrafted jewelry</p>
+                                            <div class="luxe-mockup-ctas">
+                                                <span class="luxe-mockup-btn gold">Explore Collection</span>
+                                                <span class="luxe-mockup-btn outline">Book Consultation</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info-side">
+                        <span class="project-badge">Featured E-Commerce</span>
+                        <h3>Luxe Jewelers</h3>
+                        <p class="project-desc">
+                            A luxury jewelry boutique e-commerce application constructed with sleek transitions, custom asset styling, secure client catalog browsing, and extreme technical optimization.
+                        </p>
+                        <div class="tech-tags" style="margin-bottom: 1.5rem;">
+                            <span class="tag">Next.js</span>
+                            <span class="tag">React</span>
+                            <span class="tag">TailwindCSS</span>
+                            <span class="tag">E-Commerce Flow</span>
+                        </div>
+                        <a href="portfolio.html" class="btn btn-secondary inline-flex">
+                            <span>Explore Full Case Study &rarr;</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="text-center" style="margin-top: 4rem;">
+                    <p style="color: var(--text-secondary); margin-bottom: 2rem; font-size: 1.05rem;">
+                        Plus multiple fintech analytics platforms, subscription SaaS dashboard panels, and performance portals.
+                    </p>
+                    <a href="portfolio.html" class="btn btn-primary">
+                        <span>View All Projects Showcase</span>
+                        <svg class="btn-icon" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M3.33333 8H12.6667M12.6667 8L8 3.33334M12.6667 8L8 12.6667" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Development Process Section -->
+        <section id="process">
+            <div class="container text-center">
+                <span class="section-tag">HOW WE BUILD</span>
+                <h2 class="section-title">The Blueprint to Your Digital Flagship</h2>
+                <p class="section-subtitle">
+                    A streamlined, transparent development pipeline engineered to turn visions into high-performing code.
+                </p>
+
+                <div class="process-timeline">
+                    <!-- Step 1 -->
+                    <div class="timeline-item scroll-reveal">
+                        <div class="timeline-number">01</div>
+                        <div class="timeline-content">
+                            <h3>Discovery &amp; Strategy</h3>
+                            <p>We deep dive into your business model, customer demographics, and design preferences to map out the perfect custom architecture.</p>
+                        </div>
+                    </div>
+
+                    <!-- Step 2 -->
+                    <div class="timeline-item scroll-reveal">
+                        <div class="timeline-number">02</div>
+                        <div class="timeline-content">
+                            <h3>Bespoke Prototype</h3>
+                            <p>You receive high-fidelity Figma visual mockups mapping your layout, user journeys, typography, and premium aesthetics.</p>
+                        </div>
+                    </div>
+
+                    <!-- Step 3 -->
+                    <div class="timeline-item scroll-reveal">
+                        <div class="timeline-number">03</div>
+                        <div class="timeline-content">
+                            <h3>Production Development</h3>
+                            <p>I write clean, performance-optimized, and SEO-friendly code (React/NextJS or clean HTML/CSS) featuring custom micro-animations.</p>
+                        </div>
+                    </div>
+
+                    <!-- Step 4 -->
+                    <div class="timeline-item scroll-reveal">
+                        <div class="timeline-number">04</div>
+                        <div class="timeline-content">
+                            <h3>Optimization &amp; Launch</h3>
+                            <p>Rigorous responsive checks, PageSpeed testing, SEO tags checks, and integration of analytics before going live.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Interactive Quote Inquiry System -->
+        <section id="contact">
+            <div class="container grid-2">
+                <div class="contact-info scroll-reveal">
+                    <span class="section-tag">GET IN TOUCH</span>
+                    <h2 class="section-title">Let's Craft Something Phenomenal</h2>
+                    <p class="section-desc">
+                        Have a project brewing? Need a high-performance e-commerce store or premium brand portfolio? Fill out the inquiry form, and I will get back to you within 24 hours.
+                    </p>
+                    
+                    <div class="contact-methods">
+                        <div class="c-method">
+                            <div class="cm-icon">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M4 4H20C21.1 4 22 4.9 22 6V18C22 19.1 21.1 20 20 20H4C2.9 20 2 19.1 2 18V6C2 4.9 2.9 4 4 4Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M22 6L12 13L2 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                            <div class="cm-details">
+                                <span class="cm-label">Send an Email</span>
+                                <a href="mailto:hello@abhiwebdeveloper.com" class="cm-value">hello@abhiwebdeveloper.com</a>
+                            </div>
+                        </div>
+                        
+                        <div class="c-method">
+                            <div class="cm-icon">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                            <div class="cm-details">
+                                <span class="cm-label">Chat Availability</span>
+                                <span class="cm-value">Mon - Sat (9:00 AM - 7:00 PM)</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-card scroll-reveal">
+                    <form id="project-form" novalidate>
+                        <div class="form-step">
+                            <h3>Tell me about your project</h3>
+                            
+                            <!-- Custom Services Chips -->
+                            <div class="form-group">
+                                <label class="group-label">What service are you looking for?</label>
+                                <div class="services-chips">
+                                    <input type="checkbox" id="srv-design" name="services" value="UI/UX Design" class="chip-input">
+                                    <label for="srv-design" class="chip-label">UI/UX Design</label>
+
+                                    <input type="checkbox" id="srv-ecommerce" name="services" value="E-Commerce" class="chip-input" checked>
+                                    <label for="srv-ecommerce" class="chip-label">E-Commerce Store</label>
+
+                                    <input type="checkbox" id="srv-webapp" name="services" value="Custom Web App" class="chip-input">
+                                    <label for="srv-webapp" class="chip-label">Custom Web App</label>
+
+                                    <input type="checkbox" id="srv-seo" name="services" value="SEO & Speed" class="chip-input">
+                                    <label for="srv-seo" class="chip-label">SEO &amp; Speed Optimization</label>
+                                </div>
+                            </div>
+
+                            <!-- Custom Budget Range Selector -->
+                            <div class="form-group">
+                                <label class="group-label">Estimated Budget (USD)</label>
+                                <div class="budget-radios">
+                                    <input type="radio" id="bg-tier1" name="budget" value="< $1,000" class="budget-input">
+                                    <label for="bg-tier1" class="budget-label">&lt; $1,000</label>
+
+                                    <input type="radio" id="bg-tier2" name="budget" value="$1,000 - $3,000" class="budget-input" checked>
+                                    <label for="bg-tier2" class="budget-label">$1,000 - $3,000</label>
+
+                                    <input type="radio" id="bg-tier3" name="budget" value="$3,000 - $5,000" class="budget-input">
+                                    <label for="bg-tier3" class="budget-label">$3,000 - $5,000</label>
+
+                                    <input type="radio" id="bg-tier4" name="budget" value="$5,000+" class="budget-input">
+                                    <label for="bg-tier4" class="budget-label">$5,000+</label>
+                                </div>
+                            </div>
+
+                            <div class="form-group-grid">
+                                <div class="form-input-container">
+                                    <input type="text" id="client-name" name="name" class="form-input" placeholder=" " required>
+                                    <label for="client-name" class="floating-label">Your Name</label>
+                                    <span class="error-msg">Name is required.</span>
+                                </div>
+
+                                <div class="form-input-container">
+                                    <input type="email" id="client-email" name="email" class="form-input" placeholder=" " required>
+                                    <label for="client-email" class="floating-label">Email Address</label>
+                                    <span class="error-msg">Please enter a valid email.</span>
+                                </div>
+                            </div>
+
+                            <div class="form-input-container textarea-container">
+                                <textarea id="project-desc" name="description" class="form-input" placeholder=" " rows="4" required></textarea>
+                                <label for="project-desc" class="floating-label">Briefly describe your vision</label>
+                                <span class="error-msg">Description is required.</span>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary btn-block" id="form-submit-btn">
+                                <span>Submit Inquiry</span>
+                                <svg class="btn-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M22 2L11 13" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M22 2L15 22L11 13L2 9L22 2Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </button>
+                        </div>
+                    </form>
+
+                    <!-- Success Feedback state -->
+                    <div class="form-success-state" id="form-success" style="display: none;">
+                        <div class="success-icon-wrapper">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M22 4L12 14.01L9 11.01" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </div>
+                        <h3>Inquiry Received!</h3>
+                        <p>Thank you for reaching out. I've received your request and am excited about the prospect of working together. Expect a detailed feedback draft in your inbox shortly!</p>
+                        <button class="btn btn-secondary btn-sm" id="reset-form-btn">Submit Another Inquiry</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer id="main-footer">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <a href="#hero" class="logo">
+                    <span class="logo-symbol">&lt;/&gt;</span>
+                    <span class="logo-text">Abhi <span class="accent-text">Web Developer</span></span>
+                </a>
+                <p>Bespoke web technologies built to maximize business visibility and operational conversion.</p>
+            </div>
+            
+            <div class="footer-links-col">
+                <h4>Navigation</h4>
+                <ul>
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-links-col">
+                <h4>Legal &amp; Admin</h4>
+                <ul>
+                    <li><a href="#hero">Terms of Use</a></li>
+                    <li><a href="#hero">Privacy Policy</a></li>
+                    <li><a href="#contact">Inquiry Portal</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom container">
+            <p>&copy; 2026 Abhi Web Developer. All rights reserved. Crafting code that creates value.</p>
+            <a href="#hero" class="back-to-top" id="to-top-btn" aria-label="Scroll back to top">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M18 15L12 9L6 15" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </a>
+        </div>
+    </footer>
+
+    <!-- Core Script -->
+    <script src="script.js"></script>
+</body>
+</html>
