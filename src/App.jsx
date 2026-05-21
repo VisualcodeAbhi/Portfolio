@@ -19,14 +19,20 @@ export default function App() {
       setCurrentPath(hash);
 
       // Smooth scroll handling for standard home page anchors
-      if (hash && hash !== "#/projects") {
+      if (hash && hash !== "#/projects" && hash !== "#/") {
         // Strip out hash routing prefix if navigating back to home section
         const sectionId = hash.startsWith("#/") ? hash.replace("#/", "#") : hash;
-        const targetEl = document.querySelector(sectionId);
-        if (targetEl) {
-          setTimeout(() => {
-            targetEl.scrollIntoView({ behavior: "smooth", block: "start" });
-          }, 150);
+        if (sectionId && sectionId !== "#") {
+          try {
+            const targetEl = document.querySelector(sectionId);
+            if (targetEl) {
+              setTimeout(() => {
+                targetEl.scrollIntoView({ behavior: "smooth", block: "start" });
+              }, 150);
+            }
+          } catch (e) {
+            console.error("Failed to query selector:", sectionId, e);
+          }
         }
       } else if (hash === "#/projects" || hash === "#/") {
         window.scrollTo({ top: 0, behavior: "smooth" });

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Menu, X, Code2 } from "lucide-react";
+import { Menu, X } from "lucide-react";
 
 export default function Navbar({ currentPath }) {
   const [scrolled, setScrolled] = useState(false);
@@ -81,9 +81,14 @@ export default function Navbar({ currentPath }) {
       >
         <div className="max-w-7xl mx-auto px-6 md:px-12 flex justify-between items-center">
           {/* Logo Brand */}
-          <a href={isProjectsPage ? "#/" : "#home"} className="flex items-center gap-2 group">
-            <div className="w-9 h-9 rounded-xl bg-gradient-to-tr from-neonViolet to-neonBlue flex items-center justify-center shadow-glowBlue transition-transform duration-300 group-hover:scale-105">
-              <Code2 className="w-5 h-5 text-white" />
+          <a href={isProjectsPage ? "#/" : "#home"} className="flex items-center gap-2.5 group">
+            <div className="w-9 h-9 rounded-xl overflow-hidden bg-black flex items-center justify-center border border-white/10 shadow-glowBlue transition-transform duration-300 group-hover:scale-105 select-none">
+              <img
+                src="/logo.jpg"
+                alt="Abhi Logo"
+                className="w-full h-full object-cover"
+                style={{ filter: "invert(1) hue-rotate(180deg)" }}
+              />
             </div>
             <span className="font-display font-bold text-lg tracking-tight">
               Abhi <span className="text-neonBlue">Web</span>

@@ -1,5 +1,5 @@
 import React from "react";
-import { ArrowUp, Code2, Github, Linkedin, Mail, Twitter } from "lucide-react";
+import { ArrowUp, Github, Linkedin, Mail, Twitter } from "lucide-react";
 
 export default function Footer({ currentPath }) {
   const isProjectsPage = currentPath === "#/projects";
@@ -17,8 +17,13 @@ export default function Footer({ currentPath }) {
         {/* Branding Brand */}
         <div className="flex flex-col items-center md:items-start gap-2">
           <a href={isProjectsPage ? "#/" : "#home"} className="flex items-center gap-2 group">
-            <div className="w-8 h-8 rounded-lg bg-gradient-to-tr from-neonViolet to-neonBlue flex items-center justify-center shadow-glowBlue transition-transform duration-300 group-hover:scale-105">
-              <Code2 className="w-4.5 h-4.5 text-white" />
+            <div className="w-8 h-8 rounded-lg overflow-hidden bg-black flex items-center justify-center border border-white/10 shadow-glowBlue transition-transform duration-300 group-hover:scale-105 select-none">
+              <img
+                src="/logo.jpg"
+                alt="Abhi Logo"
+                className="w-full h-full object-cover"
+                style={{ filter: "invert(1) hue-rotate(180deg)" }}
+              />
             </div>
             <span className="font-display font-bold text-base tracking-tight text-white">
               Abhi <span className="text-neonBlue">Web</span>
